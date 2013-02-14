@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="aee439c7-b332-4541-bb8b-97cbb47a8253" ReceiverAssembly="Leave Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=56165cd852456de2" ReceiverClass="Leave_Application.Features.Feature1.Feature1EventReceiver" Scope="Site" Title="Leave Application Feature1">
+  <ElementManifests>
+    <ElementManifest Location="AddNewEmployee\Elements.xml" />
+    <ElementFile Location="AddNewEmployee\AddNewEmployee.webpart" />
+    <ElementManifest Location="AllEmployeeLeaveList\Elements.xml" />
+    <ElementFile Location="AllEmployeeLeaveList\AllEmployeeLeaveList.webpart" />
+    <ElementManifest Location="CancelEmployeeLeaves\Elements.xml" />
+    <ElementFile Location="CancelEmployeeLeaves\CancelEmployeeLeaves.webpart" />
+    <ElementManifest Location="CompoffRequestForm\Elements.xml" />
+    <ElementFile Location="CompoffRequestForm\CompoffRequestForm.webpart" />
+    <ElementManifest Location="CompoffRequests\Elements.xml" />
+    <ElementFile Location="CompoffRequests\CompoffRequests.webpart" />
+    <ElementManifest Location="CompoffStatus\Elements.xml" />
+    <ElementFile Location="CompoffStatus\CompoffStatus.webpart" />
+    <ElementManifest Location="EditEmployeeInformation\Elements.xml" />
+    <ElementFile Location="EditEmployeeInformation\EditEmployeeInformation.webpart" />
+    <ElementManifest Location="EmployeeInformation\Elements.xml" />
+    <ElementFile Location="EmployeeInformation\EmployeeInformation.webpart" />
+    <ElementManifest Location="EmployeeLeavesList\Elements.xml" />
+    <ElementFile Location="EmployeeLeavesList\EmployeeLeavesList.webpart" />
+    <ElementManifest Location="EmployeeLeaveStatus\Elements.xml" />
+    <ElementFile Location="EmployeeLeaveStatus\EmployeeLeaveStatus.webpart" />
+    <ElementManifest Location="LeaveInfo\Elements.xml" />
+    <ElementFile Location="LeaveInfo\LeaveInfo.webpart" />
+    <ElementManifest Location="LeaveRequestForm\Elements.xml" />
+    <ElementFile Location="LeaveRequestForm\LeaveRequestForm.webpart" />
+    <ElementManifest Location="MyTeamMemberDetails\Elements.xml" />
+    <ElementFile Location="MyTeamMemberDetails\MyTeamMemberDetails.webpart" />
+    <ElementManifest Location="PendingStatus\Elements.xml" />
+    <ElementFile Location="PendingStatus\PendingStatus.webpart" />
+    <ElementManifest Location="ResignationForm\Elements.xml" />
+    <ElementFile Location="ResignationForm\ResignationForm.webpart" />
+    <ElementManifest Location="UpdateEmployeeLeaves\Elements.xml" />
+    <ElementFile Location="UpdateEmployeeLeaves\UpdateEmployeeLeaves.webpart" />
+  </ElementManifests>
+</Feature>
